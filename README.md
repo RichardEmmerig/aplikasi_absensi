@@ -3,11 +3,14 @@
 Aplikasi web yang sederhana dan mudah digunakan untuk melacak kehadiran. Proyek ini bersifat open-source dan gratis untuk digunakan, dengan syarat memberikan penghargaan kepada pembuat aslinya.
 
 ## Fitur
+
 - Registrasi dan login pengguna
 - Penandaan kehadiran
 - Pembuatan laporan kehadiran
 
 ## Fitur yang diharapkan akan dibuat
+
+- Sistem pengumuman yang lebih baik
 - Desain responsif
 
 Richard Emmerig
@@ -17,7 +20,8 @@ Cek live website Aplikasi Absensi Web
 https://richardemmerig.com/aplikasi_absensi
 
 My information
+
 - Instagram : https://www.instagram.com/richardemmerig
-- Facebook  : https://www.facebook.com/richardemmerig99/
-- Behance   : https://www.behance.net/ayasatomichan
-- LinkedIn  : https://www.linkedin.com/in/richardemmerig/
+- Facebook : https://www.facebook.com/richardemmerig99/
+- Behance : https://www.behance.net/ayasatomichan
+- LinkedIn : https://www.linkedin.com/in/richardemmerig/

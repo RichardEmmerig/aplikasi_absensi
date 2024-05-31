@@ -1,0 +1,126 @@
+/* form login */
+
+/* .container-login {
+  padding: 7em 0;
+} */
+
+.maintaince-update {
+  position: fixed;
+  z-index: 99;
+  bottom: 15px;
+  left: 15px;
+  background-color: lightyellow;
+  border-radius: 20px;
+  padding: 10px 25px;
+  opacity: 0.7;
+  animation: disappear 1.5s forwards 5s;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.maintaince-update span {
+  display: block;
+  font-size: small;
+}
+
+.maintaince-update a {
+  text-decoration: none;
+}
+
+.wrap-login {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+}
+
+.wrap-login .img {
+  width: 100%;
+}
+
+:root {
+  --main-color: #10cab7;
+  --secondary-color: #2c4755;
+  --section-padding: 50px;
+  --section-background-color: #f6f6f6;
+  --main-Paragraph-Color: #444;
+}
+
+.thisContainer {
+  margin: 2rem;
+}
+
+.information_alert {
+  position: fixed;
+  width: 500px;
+  background: #2596be;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  margin: 0 auto;
+  z-index: 99;
+  opacity: 0.8;
+}
+
+.information_alert_close {
+  position: absolute;
+  right: 18px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.buttons-pdf-datatable {
+  background: none !important;
+  background-color: #2596be !important;
+  color: white !important;
+  transition: 0.2s !important;
+  border: none !important;
+}
+
+.buttons-pdf-datatable:hover {
+  background-color: #1a7485 !important;
+}
+
+.buka_pengumuman {
+  text-decoration: underline;
+  text-align: center;
+  width: 100%;
+}
+
+#table_pengumuman th,
+#table_pengumuman tr {
+  background-color: #ffffff;
+}
+
+#table_pengumuman tr {
+  cursor: pointer;
+}
+
+#table_pengumuman tr:hover {
+  background-color: #edffff !important;
+}
+
+@media only screen and (max-width: 425px) {
+  .information_alert {
+    width: 300px;
+  }
+
+  .thisContainer {
+    margin: 1rem;
+  }
+}
